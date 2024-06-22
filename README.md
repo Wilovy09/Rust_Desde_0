@@ -108,3 +108,32 @@ fn main() {
     println!("{x} mundo!");
 }
 ```
+
+## Tipos de datos
+
+### Tipos escalares
+
+Es la representación de un valor único.
+
+- Enteros
+- Flotantes
+- Booleanos
+- Caracteres
+
+#### Enteros
+
+Es un número sin componente decimal.
+
+| Longitud | Con signo | Sin signo |
+|----------|-----------|-----------|
+| 8-bit    | i8        | u8        |
+| 16-bit   | i16       | u16       |
+| 32-bit   | i32       | u32       |
+| 64-bit   | i64       | u64       |
+| 128-bit  | i128      | u128      |
+|          | isize     | usize     |
+
+`isize` o `usize` estos 2 tipos, se usan dependiento la plataforma, si es de 64-bits pues define un `i64` o un `u64` y si es de 32-bit pues `i32` o un `u32`.
+
+
+
